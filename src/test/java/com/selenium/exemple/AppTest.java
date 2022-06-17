@@ -49,29 +49,14 @@ public class AppTest {
 	@BeforeClass
 	public void open_browser() throws MalformedURLException{
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
-		/*ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--no-sandbox");
 		options.addArguments("--headless");
-		options.addArguments("--disable-dev-shm-usage");*/
+		options.addArguments("--disable-dev-shm-usage");
 
-		String username = System.getenv("BROWSERSTACK_USERNAME");
-		String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
-		String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
-		String browserstackLocal = System.getenv("BROWSERSTACK_LOCAL");
-		String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");
-
-		DesiredCapabilities capabilities = new DesiredCapabilities();
-		capabilities.setCapability("os", "Linux");
-		capabilities.setCapability("os_version", "5.13.0-44-generic0");
-		capabilities.setCapability("browser", "chrome");
-		capabilities.setCapability("browser_version", "latest");
-		capabilities.setCapability("name", "selenium_project"); // test buildName
-		capabilities.setCapability("build", buildName); // CI/CD job name using BROWSERSTACK_BUILD_NAME env variable
-		capabilities.setCapability("browserstack.local", browserstackLocal);
-		capabilities.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
-		driver = new RemoteWebDriver(new URL("https://" + username + ":" + accessKey + "@hub.browserstack.com/wd/hub"), capabilities);
+	
 		
-		//driver = new ChromeDriver(options);
+		driver = new ChromeDriver(options);
 		//driver = new ChromeDriver();
 		// Maximize the browser
 		driver.manage().window().maximize();
