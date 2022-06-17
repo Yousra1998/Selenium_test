@@ -52,7 +52,7 @@ public class AppTest {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--no-sandbox");
 		options.addArguments("--headless");
-		options.addArguments("--disable-dev-shm-usage");
+
 
 	
 		
