@@ -48,16 +48,16 @@ public class AppTest {
 
 	@BeforeClass
 	public void open_browser() throws MalformedURLException{
-		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--no-sandbox");
-		options.addArguments("--headless");
+		/*options.addArguments("--no-sandbox");
+		options.addArguments("--headless");*/
 
 
 	
 		
-		driver = new ChromeDriver(options);
-		//driver = new ChromeDriver();
+		//driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
 		// Maximize the browser
 		driver.manage().window().maximize();
 		// driver.get("https://www.google.com/");

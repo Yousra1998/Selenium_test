@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.selenium.exemple.AppTest" time="0.43" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.selenium.exemple.AppTest" time="0.343" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Yousra\eclipse-workspace\exemple"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Yousra\Downloads\Compressed\selenium_project"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Yousra\eclipse-workspace\exemple"/>
+    <property name="user.dir" value="C:\Users\Yousra\Downloads\Compressed\selenium_project"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="11.0.15.1+2-LTS-10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Yousra\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10439958508938816632.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Yousra\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4612879465401556914.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk-11.0.15.1;C:\Program Files\Git\cmd;C:\Users\Yousra\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.15.1;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.8.5\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk-11.0.15.1;C:\Program Files\Git\cmd;C:\Users\Yousra\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.8.5\bin;."/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="11.0.15.1"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\Yousra\eclipse-workspace\exemple\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Yousra\Downloads\Compressed\selenium_project\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2022-04-22"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -62,5 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.selenium.exemple.AppTest" name="testing_elements" time="0.43"/>
+  <testcase classname="com.selenium.exemple.AppTest" name="testing_elements" time="0.343"/>
 </testsuite>
