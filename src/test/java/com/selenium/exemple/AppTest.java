@@ -40,7 +40,7 @@ public class AppTest {
 		WebElement email = driver.findElement(By.id("email"));
 		WebElement password = driver.findElement(By.id("pass"));
 		email.sendKeys("yousra_noor@live.fr");
-		password.sendKeys("Bomba8577*");
+		password.sendKeys("Bomba8577");
 		driver.findElement(By.name("login")).click();
 		
 
