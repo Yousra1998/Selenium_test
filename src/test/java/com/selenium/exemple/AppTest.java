@@ -40,7 +40,7 @@ public class AppTest {
 		WebElement email = driver.findElement(By.id("email"));
 		WebElement password = driver.findElement(By.id("pass"));
 		email.sendKeys("yousra_noor@live.fr");
-		password.sendKeys("Bomba8577");
+		password.sendKeys("Bomba8577*");
 		driver.findElement(By.name("login")).click();
 		
 
@@ -65,7 +65,7 @@ public class AppTest {
 		driver.get(
 				"https://www.facebook.com/?stype=lo&jlou=AffrxLSk_vCQc2XacaIZx87vGdMmXrokmrc4DDXj8mu67v8f7J6V2vQ8vZSkUKJb2RWWumrvIJbKGXKAnRg5Bb-MiG7wi4Kbboyo66aCrzscsw&smuh=23597&lh=Ac9ICx9fbxLASe-F2s0");
 		String actualTitle = driver.getTitle();
-        String title = "Facebook - Connexion ou inscription";
+        String title = "Faceboo - Connexion ou inscription";
         
         if (actualTitle.contentEquals(title)){
             System.out.println("Test Passed!");
