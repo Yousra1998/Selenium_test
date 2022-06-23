@@ -48,16 +48,16 @@ public class AppTest {
 
 	@BeforeClass
 	public void open_browser() throws MalformedURLException{
-		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
 		ChromeOptions options = new ChromeOptions();
-		/*options.addArguments("--no-sandbox");
-		options.addArguments("--headless");*/
+		options.addArguments("--no-sandbox");
+		options.addArguments("--headless");
 
 
 	
 		
-		//driver = new ChromeDriver(options);
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(options);
+		//driver = new ChromeDriver();
 		// Maximize the browser
 		driver.manage().window().maximize();
 		// driver.get("https://www.google.com/");
@@ -65,7 +65,7 @@ public class AppTest {
 		driver.get(
 				"https://www.facebook.com/?stype=lo&jlou=AffrxLSk_vCQc2XacaIZx87vGdMmXrokmrc4DDXj8mu67v8f7J6V2vQ8vZSkUKJb2RWWumrvIJbKGXKAnRg5Bb-MiG7wi4Kbboyo66aCrzscsw&smuh=23597&lh=Ac9ICx9fbxLASe-F2s0");
 		String actualTitle = driver.getTitle();
-        String title = "Faceboo - Connexion ou inscription";
+        String title = "Facebook - Connexion ou inscription";
         
         if (actualTitle.contentEquals(title)){
             System.out.println("Test Passed!");
